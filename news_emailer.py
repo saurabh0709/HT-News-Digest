@@ -7,7 +7,6 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-
 # Function to get headlines from Hindustan Times
 def fetch_headlines():
     headers = {
@@ -76,4 +75,3 @@ def send_email(headlines_with_links):
 daily_headlines = fetch_headlines()
 send_email(daily_headlines)
 
-# qoji hwxt pomf smvi
